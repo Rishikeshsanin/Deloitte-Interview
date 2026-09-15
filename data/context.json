@@ -1,0 +1,78 @@
+{
+  "company": {
+    "name": "Deloitte",
+    "legalEntity": "Deloitte Touche Tohmatsu India LLP",
+    "practice": "Technology & Transformation",
+    "businessUnit": "ET&P",
+    "role": "Technology & Transformation | ET&P: Finance Transformation | GBS",
+    "designation": "Analyst"
+  },
+  "interview": {
+    "date": "16 September 2026",
+    "time": "11:00 AM",
+    "panel": "Pradeep",
+    "format": "Virtual / from home",
+    "platform": "HirePro",
+    "status": "Shortlisted through Deloitte online assessment"
+  },
+  "job": {
+    "summary": "Help finance organizations solve complex business challenges and improve business performance; understand client requirements; support implementation of solutions; analyze requirements, industry trends and market dynamics; manage deliverables and stakeholder relationships; collaborate across teams; and support proposals/RFPs.",
+    "focus": ["business/client problem understanding","analytical problem solving","project delivery","communication","stakeholder management","cross-functional collaboration","requirements analysis","initiative","independent learning","Excel/PowerPoint/Visio/Word","change and transformation thinking"],
+    "location": "Pan India / allocation dependent according to the official JD; campus portal initially displayed Bengaluru",
+    "workModel": "Hybrid by default according to the JD",
+    "codingRequirement": "No coding round or programming requirement is explicitly stated in the FT GBS JD",
+    "aiRequirement": "No explicit AI/ML requirement in the FT GBS JD"
+  },
+  "candidate": {
+    "name": "Munnaluri Rishikesh",
+    "degree": "B.Tech",
+    "branch": "Computer Science and Engineering",
+    "positioning": "Use software, data, analytics, automation and AI to solve enterprise/business-process problems",
+    "preferredCodingLanguage": "Java",
+    "backupCodingLanguage": "Python",
+    "strongSkills": ["Java","Python","DSA","OOP","SQL","DBMS","Problem Solving","REST APIs","Git/GitHub","PostgreSQL","Full-Stack Development","Backend Development","React","Node.js","JavaScript","Docker"],
+    "workingKnowledge": ["Machine Learning","Generative AI","LLMs","Cloud Computing","CI/CD","API Integration","Microservices","System Design","Software Testing","Data Analysis","Automation","Requirements Analysis","Technical Documentation","Operating Systems","Computer Networks"],
+    "guardrails": ["Do not invent CGPA","Do not invent project metrics or technologies","Do not invent ERP/client-facing experience","Do not invent behavioral stories","Do not expose private contact information"]
+  },
+  "projects": {
+    "CommercialIQ": {
+      "repo": "https://github.com/Rishikeshsanin/CommercialIQ",
+      "live": "https://commercialiq-cyan.vercel.app",
+      "summary": "AI-powered commercial decision intelligence platform for demand forecasting, customer segmentation, predictive risk, commercial analytics, RAG and tool-using AI decision support.",
+      "stack": ["React 18","Vite 5","JavaScript","Vercel Serverless Functions","Node.js","Python","Pandas","NumPy","Scikit-learn","Joblib","Supabase PostgreSQL","RLS","GitHub Actions","Vercel"],
+      "ml": ["Linear/Logistic Regression","Random Forest","Gradient Boosting","K-Means","RFM segmentation"],
+      "data": "Synthetic commercial dataset: 100 customers, 10 products, 1,500 transactions, 30 forecast records, 100 segment assignments, 100 risk outputs and 5 knowledge documents.",
+      "architecture": "React/Vite UI -> Vercel Serverless Functions -> Supabase PostgreSQL; Python ML pipeline for forecasting/risk/segmentation; RAG/tool orchestration for AI analyst; deterministic fallback when optional AI is unavailable.",
+      "deloitteRelevance": "Strong example of analytics, transformation, data-driven decision support, automation, AI governance and business value."
+    },
+    "Skylark Command": {
+      "repo": "https://github.com/Rishikeshsanin/skylark-command",
+      "live": "https://skylark-command.vercel.app",
+      "summary": "Trust-native executive decision intelligence over live CRM and operational data, with deterministic business analytics, Change Intelligence, Customer 360, Scenario Lab and bounded AI interpretation.",
+      "stack": ["Next.js 16 App Router","React 19","TypeScript 5.9","Zod","monday.com GraphQL","PostgreSQL","Supabase Auth","Gemini","Tailwind CSS 4","Vitest","Vercel"],
+      "architecture": "monday.com GraphQL read-only data -> normalization/quality flags -> live and persisted snapshots -> deterministic analytics -> semantic registry + lineage -> typed analytical tools -> Copilot/Scenario Lab/UI; optional Gemini only interprets already-computed results.",
+      "trust": "FACT/ESTIMATE/INTERPRETATION separation, evidence/lineage, unknown stays unknown, read-only demo mode, schema/tool allowlists, RBAC foundation, prompt-injection defenses and structured redacted telemetry.",
+      "deloitteRelevance": "Strong example of enterprise workflows, stakeholder-facing analytics, data quality, explainability, systems integration and transformation-oriented decision support."
+    },
+    "Koshora": {
+      "repo": "https://github.com/Rishikeshsanin/koshora-finance",
+      "live": "https://koshora-finance.vercel.app",
+      "summary": "Production-minded personal-finance workspace connecting transactions, budgets, recurring commitments, accounts and savings goals with deterministic forecasting and explainable insights.",
+      "stack": ["Next.js 16 App Router","React 19","TypeScript 5","Supabase Auth","PostgreSQL","Row Level Security","@supabase/ssr","Vercel","GitHub Actions"],
+      "architecture": "Public recruiter demo uses localStorage; private cloud mode uses Supabase Auth, membership bootstrap, server-side read model and authenticated finance mutations. Seven finance tables are protected by membership + ownership RLS.",
+      "deloitteRelevance": "Strong finance-domain project showing data modeling, deterministic financial logic, security, explainability, isolation and product engineering."
+    }
+  },
+  "answerRules": [
+    "Give the direct recruiter-ready answer first",
+    "Put the most important point first",
+    "Tailor to Deloitte FT GBS only when relevant",
+    "Detailed explanation goes below the short answer",
+    "For technical concepts use definition -> simple explanation -> practical example",
+    "For project questions use problem -> solution -> architecture -> technology -> personal contribution -> challenge -> outcome -> improvement",
+    "Use STAR only with real behavioral facts",
+    "Emphasize business value, transformation and analytics",
+    "Do not describe FT GBS as pure SWE or accounting-only",
+    "Never invent candidate experience or unsupported project details"
+  ]
+}
